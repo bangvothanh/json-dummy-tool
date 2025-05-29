@@ -1,14 +1,4236 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+  "v2/packages?filter[type]=global": {
+    "data": [
+      {
+        "slug": "asia",
+        "country_code": "",
+        "title": "Asia",
+        "image": {
+          "width": 140,
+          "height": 94,
+          "url": "https://sandbox.airalo.com/images/3bc350bf-a1d4-49cf-a795-aa4c2118b252.png"
+        },
+        "operators": [
+          {
+            "id": 557,
+            "style": "light",
+            "gradient_start": "#ffe6d2",
+            "gradient_end": "#ffdcc2",
+            "type": "global",
+            "is_prepaid": false,
+            "title": "Asialink",
+            "esim_type": "Prepaid",
+            "warning": null,
+            "apn_type": "manual",
+            "apn_value": "e-ideas",
+            "is_roaming": true,
+            "info": null,
+            "image": {
+              "width": 1035,
+              "height": 653,
+              "url": "https://sandbox.airalo.com/images/37e83e4e-a53b-4fd2-8c8e-5ae7018ef79b.png"
+            },
+            "plan_type": "data",
+            "activation_policy": "first-usage",
+            "is_kyc_verify": false,
+            "rechargeability": true,
+            "other_info": null,
+            "coverages": [
+              {
+                "name": "CN",
+                "code": "CN",
+                "networks": [
+                  {
+                    "name": "China Unicom",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "TH",
+                "code": "TH",
+                "networks": [
+                  {
+                    "name": "AIS",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "HK",
+                "code": "HK",
+                "networks": [
+                  {
+                    "name": "CSL",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "MY",
+                "code": "MY",
+                "networks": [
+                  {
+                    "name": "Maxis",
+                    "types": [
+                      "LTE"
+                    ]
+                  },
+                  {
+                    "name": "Digi",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "KR",
+                "code": "KR",
+                "networks": [
+                  {
+                    "name": "KT Olleh",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "JP",
+                "code": "JP",
+                "networks": [
+                  {
+                    "name": "Softbank",
+                    "types": [
+                      "LTE"
+                    ]
+                  },
+                  {
+                    "name": "KDDI",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "SG",
+                "code": "SG",
+                "networks": [
+                  {
+                    "name": "Singtel",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "ID",
+                "code": "ID",
+                "networks": [
+                  {
+                    "name": "Telkomsel",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "KH",
+                "code": "KH",
+                "networks": [
+                  {
+                    "name": "Viettel (Metfone)",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "LA",
+                "code": "LA",
+                "networks": [
+                  {
+                    "name": "LAO GSM",
+                    "types": [
+                      "LTE"
+                    ]
+                  },
+                  {
+                    "name": "Tplus",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "MO",
+                "code": "MO",
+                "networks": [
+                  {
+                    "name": "CTM",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "PH",
+                "code": "PH",
+                "networks": [
+                  {
+                    "name": "Globe",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "TW",
+                "code": "TW",
+                "networks": [
+                  {
+                    "name": "Chunghwa",
+                    "types": [
+                      "LTE"
+                    ]
+                  },
+                  {
+                    "name": "Taiwan Mobile",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "VN",
+                "code": "VN",
+                "networks": [
+                  {
+                    "name": "Mobifone",
+                    "types": [
+                      "LTE"
+                    ]
+                  },
+                  {
+                    "name": "Viettel",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "install_window_days": null,
+            "topup_grace_window_days": null,
+            "apn": {
+              "ios": {
+                "apn_type": "automatic",
+                "apn_value": "e-ideas"
+              },
+              "android": {
+                "apn_type": "manual",
+                "apn_value": "e-ideas"
+              }
+            },
+            "packages": [
+              {
+                "id": "asialink-7days-1gb",
+                "type": "sim",
+                "price": 5,
+                "amount": 1024,
+                "day": 7,
+                "is_unlimited": false,
+                "title": "1 GB - 7 Days",
+                "short_info": null,
+                "qr_installation": "",
+                "manual_installation": "",
+                "data": "1 GB",
+                "voice": null,
+                "text": null,
+                "net_price": 4,
+                "prices": {
+                  "net_price": {
+                    "AUD": 6.24,
+                    "BRL": 22.76,
+                    "GBP": 2.96,
+                    "AED": 14.68,
+                    "EUR": 3.56,
+                    "ILS": 14.04,
+                    "JPY": 583,
+                    "MXN": 77.56,
+                    "USD": 4,
+                    "VND": 103767
+                  },
+                  "recommended_retail_price": {
+                    "AUD": 7.8,
+                    "BRL": 28.45,
+                    "GBP": 3.7,
+                    "AED": 18.35,
+                    "EUR": 4.45,
+                    "ILS": 17.55,
+                    "JPY": 729,
+                    "MXN": 96.95,
+                    "USD": 5,
+                    "VND": 129709
+                  }
+                }
+              },
+              {
+                "id": "asialink-30days-3gb",
+                "type": "sim",
+                "price": 13,
+                "amount": 3072,
+                "day": 30,
+                "is_unlimited": false,
+                "title": "3 GB - 30 Days",
+                "short_info": null,
+                "qr_installation": "",
+                "manual_installation": "",
+                "data": "3 GB",
+                "voice": null,
+                "text": null,
+                "net_price": 10.4,
+                "prices": {
+                  "net_price": {
+                    "AUD": 16.22,
+                    "BRL": 59.18,
+                    "GBP": 7.7,
+                    "AED": 38.17,
+                    "EUR": 9.26,
+                    "ILS": 36.5,
+                    "JPY": 1516,
+                    "MXN": 201.66,
+                    "USD": 10.4,
+                    "VND": 269795
+                  },
+                  "recommended_retail_price": {
+                    "AUD": 20.28,
+                    "BRL": 73.97,
+                    "GBP": 9.62,
+                    "AED": 47.71,
+                    "EUR": 11.57,
+                    "ILS": 45.63,
+                    "JPY": 1894,
+                    "MXN": 252.07,
+                    "USD": 13,
+                    "VND": 337243
+                  }
+                }
+              },
+              {
+                "id": "asialink-30days-5gb",
+                "type": "sim",
+                "price": 20,
+                "amount": 5120,
+                "day": 30,
+                "is_unlimited": false,
+                "title": "5 GB - 30 Days",
+                "short_info": null,
+                "qr_installation": "",
+                "manual_installation": "",
+                "data": "5 GB",
+                "voice": null,
+                "text": null,
+                "net_price": 16,
+                "prices": {
+                  "net_price": {
+                    "AUD": 24.96,
+                    "BRL": 91.04,
+                    "GBP": 11.84,
+                    "AED": 58.72,
+                    "EUR": 14.24,
+                    "ILS": 56.16,
+                    "JPY": 2332,
+                    "MXN": 310.24,
+                    "USD": 16,
+                    "VND": 415069
+                  },
+                  "recommended_retail_price": {
+                    "AUD": 31.2,
+                    "BRL": 113.8,
+                    "GBP": 14.8,
+                    "AED": 73.4,
+                    "EUR": 17.8,
+                    "ILS": 70.2,
+                    "JPY": 2915,
+                    "MXN": 387.8,
+                    "USD": 20,
+                    "VND": 518836
+                  }
+                }
+              }
+            ],
+            "countries": [
+              {
+                "country_code": "KH",
+                "title": "Cambodia",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/793127da-5912-4c4d-9fa9-9d061522d98d.png"
+                }
+              },
+              {
+                "country_code": "CN",
+                "title": "China",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/33ac2270-1e02-42ad-95a3-5debda42c1b0.png"
+                }
+              },
+              {
+                "country_code": "HK",
+                "title": "Hong Kong",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/ca6cf959-521d-47dc-ad83-3249deb1ed2f.png"
+                }
+              },
+              {
+                "country_code": "ID",
+                "title": "Indonesia",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/206c2019-efb4-439b-a8c9-8ad5b91572b8.png"
+                }
+              },
+              {
+                "country_code": "JP",
+                "title": "Japan",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/abcdb132-c40f-4f28-8448-2b985be75f32.png"
+                }
+              },
+              {
+                "country_code": "LA",
+                "title": "Laos",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/64c6b8c6-1584-4857-905d-af500fcc00e4.png"
+                }
+              },
+              {
+                "country_code": "MO",
+                "title": "Macau",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/ef5a442d-7d6f-4604-9562-4000295bd60d.png"
+                }
+              },
+              {
+                "country_code": "MY",
+                "title": "Malaysia",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/6ce40fe1-8405-477f-bedb-1a5277c92f85.png"
+                }
+              },
+              {
+                "country_code": "PH",
+                "title": "Philippines",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/62fede5f-714c-4564-9ee8-3eab44c1319e.png"
+                }
+              },
+              {
+                "country_code": "SG",
+                "title": "Singapore",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/c986d7c5-9001-499a-bb59-bb9980e64c22.png"
+                }
+              },
+              {
+                "country_code": "KR",
+                "title": "South Korea",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/7cec50a4-5978-4107-80bb-088667c60f6e.png"
+                }
+              },
+              {
+                "country_code": "TW",
+                "title": "Taiwan",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/9450eab6-222f-4c3e-ad71-c827ff402a65.png"
+                }
+              },
+              {
+                "country_code": "TH",
+                "title": "Thailand",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/a73f6b83-c6f5-463e-afac-6e78dfa0a720.png"
+                }
+              },
+              {
+                "country_code": "VN",
+                "title": "Vietnam",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/f479d045-3066-4f41-a893-d6c29e17f197.png"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "africa",
+        "country_code": "",
+        "title": "Africa",
+        "image": {
+          "width": 140,
+          "height": 94,
+          "url": "https://sandbox.airalo.com/images/efed76d2-ffb0-44a0-beff-a69fefd3b2ed.png"
+        },
+        "operators": [
+          {
+            "id": 529,
+            "style": "light",
+            "gradient_start": "#C46923",
+            "gradient_end": "#AD461D",
+            "type": "global",
+            "is_prepaid": false,
+            "title": "Hello Africa",
+            "esim_type": "Prepaid",
+            "warning": null,
+            "apn_type": "automatic",
+            "apn_value": null,
+            "is_roaming": true,
+            "info": [
+              "4G Data-only eSIM.",
+              "Rechargeable online.",
+              "Lower speeds should be expected in Botswana, Central African Republic, Guinea Republic, Liberia, Namibia, Nigeria, and Swaziland."
+            ],
+            "image": {
+              "width": 1012,
+              "height": 638,
+              "url": "https://sandbox.airalo.com/images/66dfa7f5-f415-4262-8ef7-8f61ff1b2319.png"
+            },
+            "plan_type": "data",
+            "activation_policy": "first-usage",
+            "is_kyc_verify": false,
+            "rechargeability": true,
+            "other_info": null,
+            "coverages": [
+              {
+                "name": "BF",
+                "code": "BF",
+                "networks": [
+                  {
+                    "name": "Zain",
+                    "types": [
+                      "4G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "CF",
+                "code": "CF",
+                "networks": [
+                  {
+                    "name": "Orange",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "CI",
+                "code": "CI",
+                "networks": [
+                  {
+                    "name": "MTN",
+                    "types": [
+                      "4G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "CM",
+                "code": "CM",
+                "networks": [
+                  {
+                    "name": "MTN",
+                    "types": [
+                      "4G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "CD",
+                "code": "CD",
+                "networks": [
+                  {
+                    "name": "Airtel (Celtel)",
+                    "types": [
+                      "4G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "CG",
+                "code": "CG",
+                "networks": [
+                  {
+                    "name": "CelTel",
+                    "types": [
+                      "4G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "DZ",
+                "code": "DZ",
+                "networks": [
+                  {
+                    "name": "Wataniya Telecom",
+                    "types": [
+                      "4G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "GA",
+                "code": "GA",
+                "networks": [
+                  {
+                    "name": "Zain",
+                    "types": [
+                      "4G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "GH",
+                "code": "GH",
+                "networks": [
+                  {
+                    "name": "MTN",
+                    "types": [
+                      "4G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "GN",
+                "code": "GN",
+                "networks": [
+                  {
+                    "name": "MTN",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "GW",
+                "code": "GW",
+                "networks": [
+                  {
+                    "name": "Spicetel (MTN)",
+                    "types": [
+                      "4G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "KE",
+                "code": "KE",
+                "networks": [
+                  {
+                    "name": "Zain",
+                    "types": [
+                      "4G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "LR",
+                "code": "LR",
+                "networks": [
+                  {
+                    "name": "Lonestar (MTN)",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "MG",
+                "code": "MG",
+                "networks": [
+                  {
+                    "name": "Orange",
+                    "types": [
+                      "4G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "MW",
+                "code": "MW",
+                "networks": [
+                  {
+                    "name": "Zain (Celtel)",
+                    "types": [
+                      "4G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NA",
+                "code": "NA",
+                "networks": [
+                  {
+                    "name": "PowerCom (Cell one)",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NG",
+                "code": "NG",
+                "networks": [
+                  {
+                    "name": "Airtel",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "RW",
+                "code": "RW",
+                "networks": [
+                  {
+                    "name": "Tigo",
+                    "types": [
+                      "4G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "SN",
+                "code": "SN",
+                "networks": [
+                  {
+                    "name": "Orange (Sonatel)",
+                    "types": [
+                      "4G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "SL",
+                "code": "SL",
+                "networks": [
+                  {
+                    "name": "Africell",
+                    "types": [
+                      "4G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "SZ",
+                "code": "SZ",
+                "networks": [
+                  {
+                    "name": "MTN",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "TD",
+                "code": "TD",
+                "networks": [
+                  {
+                    "name": "Airtel",
+                    "types": [
+                      "4G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "TN",
+                "code": "TN",
+                "networks": [
+                  {
+                    "name": "Orange (Divona)",
+                    "types": [
+                      "4G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "TZ",
+                "code": "TZ",
+                "networks": [
+                  {
+                    "name": "Airtel (Celtel)",
+                    "types": [
+                      "4G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "UG",
+                "code": "UG",
+                "networks": [
+                  {
+                    "name": "MTN",
+                    "types": [
+                      "4G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "ZA",
+                "code": "ZA",
+                "networks": [
+                  {
+                    "name": "MTN",
+                    "types": [
+                      "4G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "ZM",
+                "code": "ZM",
+                "networks": [
+                  {
+                    "name": "MTN",
+                    "types": [
+                      "4G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "TH",
+                "code": "TH",
+                "networks": [
+                  {
+                    "name": "Mama mia",
+                    "types": [
+                      "5G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "FR",
+                "code": "FR",
+                "networks": [
+                  {
+                    "name": "Mama mia",
+                    "types": [
+                      "4G",
+                      "4G"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "install_window_days": null,
+            "topup_grace_window_days": null,
+            "apn": {
+              "ios": {
+                "apn_type": "automatic",
+                "apn_value": null
+              },
+              "android": {
+                "apn_type": "automatic",
+                "apn_value": null
+              }
+            },
+            "packages": [
+              {
+                "id": "hello-africa-30days-3gb",
+                "type": "sim",
+                "price": 59,
+                "amount": 3072,
+                "day": 30,
+                "is_unlimited": false,
+                "title": "3 GB - 30 Days",
+                "short_info": null,
+                "qr_installation": "<p><b>eSIM name:</b> Hello Africa<br></p><p><b>Coverage: </b><span id=\"docs-internal-guid-92bf597e-7fff-d122-252c-3417e75910e3\">Algeria, Botswana, Burkina Faso, Cameroon, Central African Republic, Chad, Congo, Cote D'Ivoire, Democractic Republic of the Congo, Gabon, Ghana, Guinea Republic, Guinea-Bissau, Kenya, Liberia, Madagascar, Malawi, Namibia, Nigeria, Rwanda, Senegal, Sierra Leone, South, Africa, Swaziland, Tanzania, Tunisia, Uganda, Zambia.</span></p><p><b>To activate the eSIM by scanning the QR code on your eSIM capable device you need to print or display this QR code on another device:</b></p><ol><li>Settings > Cellular/Mobile > Add Cellular/Mobile Plan.</li><li>Scan QR code.</li><li>Confirm eSIM plan details.</li><li>Label the eSIM.</li></ol><p><b>To access Data:</b></p><ol><li>Enable data roaming.</li></ol><p><b>To top-up:</b></p><p>Visit airalo.com/my-esims or if purchased through the Airalo website/app visit “My eSIMs” tab.</p><p><br></p>",
+                "manual_installation": "<p><b>eSIM name:</b> Hello Africa</p><p><b>Coverage: </b>Algeria, Botswana, Burkina Faso, Cameroon, Central African Republic, Chad, Congo, Cote D'Ivoire, Democractic Republic of the Congo, Gabon, Ghana, Guinea Republic, Guinea-Bissau, Kenya, Liberia, Madagascar, Malawi, Namibia, Nigeria, Rwanda, Senegal, Sierra Leone, South, Africa, Swaziland, Tanzania, Tunisia, Uganda, Zambia.</p><p><b>To manually activate the eSIM on your eSIM capable device:</b></p><ol><li>Settings > Cellular/Mobile > Add Cellular/Mobile Plan.</li><li>Manually enter the SM-DP+ Address and activation code.</li><li>Confirm eSIM plan details.</li><li>Label the eSIM.</li></ol><p><b>To access Data:</b></p><ol><li>Enable data roaming.</li></ol><p><b>To top-up:</b></p><p>Visit airalo.com/my-esims or if purchased through the Airalo website/app visit “My eSIMs” tab.</p><p><br></p><p><br></p><p><br></p>",
+                "data": "3 GB",
+                "voice": null,
+                "text": null,
+                "net_price": 47.2,
+                "prices": {
+                  "net_price": {
+                    "AUD": 73.63,
+                    "BRL": 268.57,
+                    "GBP": 34.93,
+                    "AED": 173.22,
+                    "EUR": 42.01,
+                    "ILS": 165.67,
+                    "JPY": 6878,
+                    "MXN": 915.21,
+                    "USD": 47.2,
+                    "VND": 1224453
+                  },
+                  "recommended_retail_price": {
+                    "AUD": 92.04,
+                    "BRL": 335.71,
+                    "GBP": 43.66,
+                    "AED": 216.53,
+                    "EUR": 52.51,
+                    "ILS": 207.09,
+                    "JPY": 8598,
+                    "MXN": 1144.01,
+                    "USD": 59,
+                    "VND": 1530566
+                  }
+                }
+              },
+              {
+                "id": "hello-africa-30days-1gb",
+                "type": "sim",
+                "price": 27,
+                "amount": 1024,
+                "day": 30,
+                "is_unlimited": false,
+                "title": "1 GB - 30 Days",
+                "short_info": null,
+                "qr_installation": "<p><b>eSIM name:</b> Hello Africa<br></p><p><b>Coverage: </b><span id=\"docs-internal-guid-92bf597e-7fff-d122-252c-3417e75910e3\">Algeria, Botswana, Burkina Faso, Cameroon, Central African Republic, Chad, Congo, Cote D'Ivoire, Democractic Republic of the Congo, Gabon, Ghana, Guinea Republic, Guinea-Bissau, Kenya, Liberia, Madagascar, Malawi, Namibia, Nigeria, Rwanda, Senegal, Sierra Leone, South, Africa, Swaziland, Tanzania, Tunisia, Uganda, Zambia.</span></p><p><b>To activate the eSIM by scanning the QR code on your eSIM capable device you need to print or display this QR code on another device:</b></p><ol><li>Settings > Cellular/Mobile > Add Cellular/Mobile Plan.</li><li>Scan QR code.</li><li>Confirm eSIM plan details.</li><li>Label the eSIM.</li></ol><p><b>To access Data:</b></p><ol><li>Enable data roaming.</li></ol><p><b>To top-up:</b></p><p>Visit airalo.com/my-esims or if purchased through the Airalo website/app visit “My eSIMs” tab.</p><p><br></p>",
+                "manual_installation": "<p><b>eSIM name:</b> Hello Africa</p><p><b>Coverage: </b>Algeria, Botswana, Burkina Faso, Cameroon, Central African Republic, Chad, Congo, Cote D'Ivoire, Democractic Republic of the Congo, Gabon, Ghana, Guinea Republic, Guinea-Bissau, Kenya, Liberia, Madagascar, Malawi, Namibia, Nigeria, Rwanda, Senegal, Sierra Leone, South, Africa, Swaziland, Tanzania, Tunisia, Uganda, Zambia.</p><p><b>To manually activate the eSIM on your eSIM capable device:</b></p><ol><li>Settings > Cellular/Mobile > Add Cellular/Mobile Plan.</li><li>Manually enter the SM-DP+ Address and activation code.</li><li>Confirm eSIM plan details.</li><li>Label the eSIM.</li></ol><p><b>To access Data:</b></p><ol><li>Enable data roaming.</li></ol><p><b>To top-up:</b></p><p>Visit airalo.com/my-esims or if purchased through the Airalo website/app visit “My eSIMs” tab.</p><p><br></p><p><br></p><p><br></p>",
+                "data": "1 GB",
+                "voice": null,
+                "text": null,
+                "net_price": 21.6,
+                "prices": {
+                  "net_price": {
+                    "AUD": 33.7,
+                    "BRL": 122.9,
+                    "GBP": 15.98,
+                    "AED": 79.27,
+                    "EUR": 19.22,
+                    "ILS": 75.82,
+                    "JPY": 3148,
+                    "MXN": 418.82,
+                    "USD": 21.6,
+                    "VND": 560343
+                  },
+                  "recommended_retail_price": {
+                    "AUD": 42.12,
+                    "BRL": 153.63,
+                    "GBP": 19.98,
+                    "AED": 99.09,
+                    "EUR": 24.03,
+                    "ILS": 94.77,
+                    "JPY": 3935,
+                    "MXN": 523.53,
+                    "USD": 27,
+                    "VND": 700429
+                  }
+                }
+              }
+            ],
+            "countries": [
+              {
+                "country_code": "DZ",
+                "title": "Algeria",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/9c692b67-afba-4505-88db-ebce8a8d7ced.png"
+                }
+              },
+              {
+                "country_code": "BW",
+                "title": "Botswana",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/676a7713-07cf-4956-9fcc-9727a3f7e036.png"
+                }
+              },
+              {
+                "country_code": "BF",
+                "title": "Burkina Faso",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/c1d0b4fe-16c0-4a95-8ef5-d837b45b3a79.png"
+                }
+              },
+              {
+                "country_code": "CM",
+                "title": "Cameroon",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/dc71c6a0-0eac-4658-be2d-2d7324ef5a5d.png"
+                }
+              },
+              {
+                "country_code": "CF",
+                "title": "Central African Republic",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/aab4648c-4c85-4230-96eb-df9db173e651.png"
+                }
+              },
+              {
+                "country_code": "TD",
+                "title": "Chad",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/905ec195-7cf9-4d65-8d42-c52599029897.png"
+                }
+              },
+              {
+                "country_code": "CI",
+                "title": "Côte d'Ivoire",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/ea0377f9-17f6-4b36-898f-846406ef19a8.png"
+                }
+              },
+              {
+                "country_code": "CD",
+                "title": "Democratic Republic Of The Congo",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/36e96c41-13cd-4f54-bbf3-1076c71bd7c4.png"
+                }
+              },
+              {
+                "country_code": "GA",
+                "title": "Gabon",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/83a27d19-7ac6-488b-b5ae-66e4aa0a0124.png"
+                }
+              },
+              {
+                "country_code": "GH",
+                "title": "Ghana",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/50a0b3c5-5a86-41e0-ba2f-824230273390.png"
+                }
+              },
+              {
+                "country_code": "GN",
+                "title": "Guinea",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/2b94b103-140a-4aed-b32c-f41ceb4cbfae.png"
+                }
+              },
+              {
+                "country_code": "GW",
+                "title": "Guinea-Bissau",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/8453bdbd-9010-4bbc-b3df-ceec718aab65.png"
+                }
+              },
+              {
+                "country_code": "KE",
+                "title": "Kenya",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/3328ebfe-9b92-4cc8-b528-ee0db0aaac88.png"
+                }
+              },
+              {
+                "country_code": "LR",
+                "title": "Liberia",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/311afc0e-d997-4b4d-8360-6761d476a701.png"
+                }
+              },
+              {
+                "country_code": "MG",
+                "title": "Madagascar",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/7494a77b-390b-40ab-89f4-a9f851b206ae.png"
+                }
+              },
+              {
+                "country_code": "MW",
+                "title": "Malawi",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/dc48061b-5578-4d4a-8b00-0982c871f1f3.png"
+                }
+              },
+              {
+                "country_code": "NA",
+                "title": "Namibia",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/edfa8517-7de3-438b-8774-eaa97531d7d3.png"
+                }
+              },
+              {
+                "country_code": "NG",
+                "title": "Nigeria",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/7353b037-6362-4fe1-bf63-915d7ad96c0c.png"
+                }
+              },
+              {
+                "country_code": "CG",
+                "title": "Republic of the Congo",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/bccda06b-a462-43ed-8641-ff481259f38e.png"
+                }
+              },
+              {
+                "country_code": "RW",
+                "title": "Rwanda",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/aeda8401-d72f-491d-9f0d-5e6936e6662e.png"
+                }
+              },
+              {
+                "country_code": "SN",
+                "title": "Senegal",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/35b4a0dc-6b28-473d-9c24-708616ad3fba.png"
+                }
+              },
+              {
+                "country_code": "SL",
+                "title": "Sierra Leone",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/6e011c9f-2983-490e-a56a-86502004f9d3.png"
+                }
+              },
+              {
+                "country_code": "ZA",
+                "title": "South Africa",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/9d6ec81a-3970-49cc-b866-227559d52756.png"
+                }
+              },
+              {
+                "country_code": "SZ",
+                "title": "Swaziland",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/ce900c79-5ae6-4606-9543-4fb3b6288518.png"
+                }
+              },
+              {
+                "country_code": "TZ",
+                "title": "Tanzania",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/7e56ee6c-dc96-4527-b272-e0d3c921d165.png"
+                }
+              },
+              {
+                "country_code": "TN",
+                "title": "Tunisia",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/31408058-254e-4af1-961a-8dd721e3ff83.png"
+                }
+              },
+              {
+                "country_code": "UG",
+                "title": "Uganda",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/9482122d-e9ba-49b5-b791-574996818857.png"
+                }
+              },
+              {
+                "country_code": "ZM",
+                "title": "Zambia",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/0c855dcd-9a67-45e9-ae1c-7b4c89178b67.png"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "caribbean-islands",
+        "country_code": "",
+        "title": "Caribbean Islands",
+        "image": {
+          "width": 140,
+          "height": 94,
+          "url": "https://sandbox.airalo.com/images/7cf2691e-9e2d-4577-9d40-371d8cb2f8bb.png"
+        },
+        "operators": [
+          {
+            "id": 335,
+            "style": "light",
+            "gradient_start": "#5b9990",
+            "gradient_end": "#4e857e",
+            "type": "global",
+            "is_prepaid": false,
+            "title": "Island Hopper",
+            "esim_type": "Prepaid",
+            "warning": null,
+            "apn_type": "manual",
+            "apn_value": "airalo1",
+            "is_roaming": true,
+            "info": [
+              "LTE Data-only eSIM.",
+              "Rechargeable online.",
+              "Lower speed is expected in Montserrat."
+            ],
+            "image": {
+              "width": 1035,
+              "height": 653,
+              "url": "https://sandbox.airalo.com/images/ac6960f7-b064-4efc-b012-665784ca0f23.png"
+            },
+            "plan_type": "data",
+            "activation_policy": "first-usage",
+            "is_kyc_verify": false,
+            "rechargeability": true,
+            "other_info": null,
+            "coverages": [
+              {
+                "name": "AW",
+                "code": "AW",
+                "networks": [
+                  {
+                    "name": "Digicel",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "AI",
+                "code": "AI",
+                "networks": [
+                  {
+                    "name": "Flow",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "AG",
+                "code": "AG",
+                "networks": [
+                  {
+                    "name": "Flow",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "BQ",
+                "code": "BQ",
+                "networks": [
+                  {
+                    "name": "Digicel",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "BS",
+                "code": "BS",
+                "networks": [
+                  {
+                    "name": "BTC",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "BB",
+                "code": "BB",
+                "networks": [
+                  {
+                    "name": "Flow",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "CW",
+                "code": "CW",
+                "networks": [
+                  {
+                    "name": "Digicel",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "KY",
+                "code": "KY",
+                "networks": [
+                  {
+                    "name": "Flow",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "DM",
+                "code": "DM",
+                "networks": [
+                  {
+                    "name": "Flow",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "GP",
+                "code": "GP",
+                "networks": [
+                  {
+                    "name": "Digicel",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "GD",
+                "code": "GD",
+                "networks": [
+                  {
+                    "name": "Flow",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "HT",
+                "code": "HT",
+                "networks": [
+                  {
+                    "name": "Digicel",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "JM",
+                "code": "JM",
+                "networks": [
+                  {
+                    "name": "Flow",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "KN",
+                "code": "KN",
+                "networks": [
+                  {
+                    "name": "Flow",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "LC",
+                "code": "LC",
+                "networks": [
+                  {
+                    "name": "Flow",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "MS",
+                "code": "MS",
+                "networks": [
+                  {
+                    "name": "Flow",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "MQ",
+                "code": "MQ",
+                "networks": [
+                  {
+                    "name": "Digicel",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "PA",
+                "code": "PA",
+                "networks": [
+                  {
+                    "name": "Flow",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "PR",
+                "code": "PR",
+                "networks": [
+                  {
+                    "name": "Claro",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "TC",
+                "code": "TC",
+                "networks": [
+                  {
+                    "name": "Flow",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "TT",
+                "code": "TT",
+                "networks": [
+                  {
+                    "name": "Digicel",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "VC",
+                "code": "VC",
+                "networks": [
+                  {
+                    "name": "Flow",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "VG",
+                "code": "VG",
+                "networks": [
+                  {
+                    "name": "Flow",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "FR",
+                "code": "FR",
+                "networks": [
+                  {
+                    "name": "Digicel",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "install_window_days": null,
+            "topup_grace_window_days": null,
+            "apn": {
+              "ios": {
+                "apn_type": "manual",
+                "apn_value": "airalo1"
+              },
+              "android": {
+                "apn_type": "manual",
+                "apn_value": "airalo1"
+              }
+            },
+            "packages": [
+              {
+                "id": "island-hopper-7days-1gb",
+                "type": "sim",
+                "price": 15,
+                "amount": 1024,
+                "day": 7,
+                "is_unlimited": false,
+                "title": "1 GB - 7 Days",
+                "short_info": "This eSIM doesn't come with a phone number.",
+                "qr_installation": "<p><b>eSIM name:</b> Island Hopper</p><p><b>Coverage: </b><span style=\"font-size: 13px;\">Anguilla, Antigua & Barbuda, Aruba, Barbados, Bahamas,</span><span style=\"font-size: 13px;\"> Bonaire, British Virgin Islands, Cayman Islands, Curaçao, Dominica, Grenada, Guadeloupe, Haiti, Jamaica, Martinique, Montserrat, Panama, Puerto Rico, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and Grenadines, Trinidad and Tobago, Turks and Caicos Islands.</span></p><p><b>To activate the eSIM by scanning the QR code on your eSIM capable device you need to print or display this QR code on other device:</b></p><ol><li>Settings > Cellular/Mobile > Add Cellular/Mobile Plan.</li><li>Scan QR code.</li><li>Confirm eSIM plan details.</li><li>Label the eSIM.</li></ol><p><b>To access Data:</b></p><ol><li>Locate the APN settings in your settings menu.</li><li>Update the APN to \"airalo1\".</li><li>Enable data roaming.</li></ol><p><b>To top up:</b></p><p>Visit airalo.com/my-esims or if purchased through the Airalo website/app visit “My eSIMs” tab.</p>",
+                "manual_installation": "<p><b>eSIM name:</b> Island Hopper</p><p><b>Coverage: </b>Anguilla, Antigua & Barbuda, Aruba, Barbados, Bahamas, Bonaire, British Virgin Islands, Cayman Islands, Curaçao, Dominica, Grenada, Guadeloupe, Haiti, Jamaica, Martinique, Montserrat, Panama, Puerto Rico, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and Grenadines, Trinidad and Tobago, Turks and Caicos Islands.</p><p><b>To manually activate the eSIM on your eSIM capable device:</b><br></p><ol><li>Settings > Cellular/Mobile > Add Cellular/Mobile Plan.</li><li>Manually enter the SM-DP+ Address and activation code.</li><li>Confirm eSIM plan details.</li><li>Label the eSIM.</li></ol><p><b>To access Data:</b></p><ol><li>Locate the APN settings in your settings menu.</li><li>Update the APN to \"airalo1\".</li><li>Enable data roaming.</li></ol><p><b>To top up:</b></p><p>Visit airalo.com/my-esims or if purchased through the Airalo website/app visit “My eSIMs” tab.</p>",
+                "data": "1 GB",
+                "voice": null,
+                "text": null,
+                "net_price": 12,
+                "prices": {
+                  "net_price": {
+                    "AUD": 18.72,
+                    "BRL": 68.28,
+                    "GBP": 8.88,
+                    "AED": 44.04,
+                    "EUR": 10.68,
+                    "ILS": 42.12,
+                    "JPY": 1749,
+                    "MXN": 232.68,
+                    "USD": 12,
+                    "VND": 311302
+                  },
+                  "recommended_retail_price": {
+                    "AUD": 23.4,
+                    "BRL": 85.35,
+                    "GBP": 11.1,
+                    "AED": 55.05,
+                    "EUR": 13.35,
+                    "ILS": 52.65,
+                    "JPY": 2186,
+                    "MXN": 290.85,
+                    "USD": 15,
+                    "VND": 389127
+                  }
+                }
+              }
+            ],
+            "countries": [
+              {
+                "country_code": "AI",
+                "title": "Anguilla",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/3b275995-4994-4782-a756-027069b2807e.png"
+                }
+              },
+              {
+                "country_code": "AG",
+                "title": "Antigua And Barbuda",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/6cdc08df-427c-45ac-b3a9-949e29f006bb.png"
+                }
+              },
+              {
+                "country_code": "AW",
+                "title": "Aruba",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/684514f2-a082-4814-80ed-bd8444199091.png"
+                }
+              },
+              {
+                "country_code": "BS",
+                "title": "Bahamas",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/178cbe9b-ee52-46d5-971d-8cc4376ee3e5.png"
+                }
+              },
+              {
+                "country_code": "BB",
+                "title": "Barbados",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/56989b91-d951-47af-9d5e-1276abaf2122.png"
+                }
+              },
+              {
+                "country_code": "BQ",
+                "title": "Bonaire",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/88439e63-7359-4ca3-8ed7-d659f985fff7.png"
+                }
+              },
+              {
+                "country_code": "VG",
+                "title": "British Virgin Islands",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/6f6c34af-da10-42a3-8e80-0b551d98b2b0.png"
+                }
+              },
+              {
+                "country_code": "KY",
+                "title": "Cayman Islands",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/af93b92d-26bf-4875-947f-a238cf4c447c.png"
+                }
+              },
+              {
+                "country_code": "CW",
+                "title": "Curaçao",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/4b5c927b-bce3-446c-ab6d-fb416ad98fb9.png"
+                }
+              },
+              {
+                "country_code": "DM",
+                "title": "Dominica",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/4ae76c7f-3315-455e-a97a-4f8126910ac8.png"
+                }
+              },
+              {
+                "country_code": "GD",
+                "title": "Grenada",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/9d3c2e17-40de-42e9-a1e7-7683df98c7be.png"
+                }
+              },
+              {
+                "country_code": "GP",
+                "title": "Guadeloupe",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/9a24eba7-bec1-4f84-8799-2669499607be.png"
+                }
+              },
+              {
+                "country_code": "HT",
+                "title": "Haiti",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/02dc9492-5335-4b4e-828b-9e76a051cf81.png"
+                }
+              },
+              {
+                "country_code": "JM",
+                "title": "Jamaica",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/7f86b09c-da38-4725-9768-ace6e064e2c4.png"
+                }
+              },
+              {
+                "country_code": "MQ",
+                "title": "Martinique",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/ccc22768-4aa7-4998-8366-97b4dea0f4a4.png"
+                }
+              },
+              {
+                "country_code": "MS",
+                "title": "Montserrat",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/86882b1c-1ebf-4072-a8a1-831f11ab4f97.png"
+                }
+              },
+              {
+                "country_code": "PA",
+                "title": "Panama",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/5ea26f84-0255-40ed-a9cd-805711ee2295.png"
+                }
+              },
+              {
+                "country_code": "PR",
+                "title": "Puerto Rico",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/2bf3ab35-5a80-4dfe-b4c4-c2510c241998.png"
+                }
+              },
+              {
+                "country_code": "KN",
+                "title": "Saint Kitts and Nevis",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/e5f4bebc-32fc-4aa3-a8d0-d3c6ac52a599.png"
+                }
+              },
+              {
+                "country_code": "LC",
+                "title": "Saint Lucia",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/89c49956-c102-42c4-8d7c-d6db7cd3e089.png"
+                }
+              },
+              {
+                "country_code": "VC",
+                "title": "Saint Vincent and the Grenadines",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/27cb9dd9-1560-40ce-ab7e-37ee9229339c.png"
+                }
+              },
+              {
+                "country_code": "TT",
+                "title": "Trinidad and Tobago",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/684eeefe-885b-4a48-97e9-c88e0f14137c.png"
+                }
+              },
+              {
+                "country_code": "TC",
+                "title": "Turks and Caicos Islands",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/fd39cd03-0c26-4701-b503-10be9c0a1231.png"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "world",
+        "country_code": "",
+        "title": "World",
+        "image": {
+          "width": 140,
+          "height": 94,
+          "url": "https://sandbox.airalo.com/images/1bf385c8-c178-4797-9482-faee55e13c36.png"
+        },
+        "operators": [
+          {
+            "id": 444,
+            "style": "light",
+            "gradient_start": "#07053F",
+            "gradient_end": "#0988A3",
+            "type": "global",
+            "is_prepaid": false,
+            "title": "Discover Global",
+            "esim_type": "Prepaid",
+            "warning": null,
+            "apn_type": "manual",
+            "apn_value": "globaldata",
+            "is_roaming": true,
+            "info": [
+              "Data-only global eSIM.",
+              "Rechargeable online."
+            ],
+            "image": {
+              "width": 1035,
+              "height": 653,
+              "url": "https://sandbox.airalo.com/images/9fba4c48-f9ad-4950-bf57-86c649c9a223.png"
+            },
+            "plan_type": "data",
+            "activation_policy": "first-usage",
+            "is_kyc_verify": false,
+            "rechargeability": true,
+            "other_info": null,
+            "coverages": [
+              {
+                "name": "US",
+                "code": "US",
+                "networks": [
+                  {
+                    "name": "AT&T",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "FR",
+                "code": "FR",
+                "networks": [
+                  {
+                    "name": "Orange",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "CN",
+                "code": "CN",
+                "networks": [
+                  {
+                    "name": "China Mobile",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "ES",
+                "code": "ES",
+                "networks": [
+                  {
+                    "name": "Vodafone",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "IT",
+                "code": "IT",
+                "networks": [
+                  {
+                    "name": "TIM",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "TR",
+                "code": "TR",
+                "networks": [
+                  {
+                    "name": "Vodafone",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "GB",
+                "code": "GB",
+                "networks": [
+                  {
+                    "name": "Vodafone",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "DE",
+                "code": "DE",
+                "networks": [
+                  {
+                    "name": "Vodafone",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "MX",
+                "code": "MX",
+                "networks": [
+                  {
+                    "name": "Telcel",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "TH",
+                "code": "TH",
+                "networks": [
+                  {
+                    "name": "AIS/AWN",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "HK",
+                "code": "HK",
+                "networks": [
+                  {
+                    "name": "CSL",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "MY",
+                "code": "MY",
+                "networks": [
+                  {
+                    "name": "Celcom",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "GR",
+                "code": "GR",
+                "networks": [
+                  {
+                    "name": "Vodafone",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "CA",
+                "code": "CA",
+                "networks": [
+                  {
+                    "name": "Bell",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "KR",
+                "code": "KR",
+                "networks": [
+                  {
+                    "name": "SK Telecom",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "JP",
+                "code": "JP",
+                "networks": [
+                  {
+                    "name": "Softbank",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "SG",
+                "code": "SG",
+                "networks": [
+                  {
+                    "name": "Starhub",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "FI",
+                "code": "FI",
+                "networks": [
+                  {
+                    "name": "Aland",
+                    "types": [
+                      "3G"
+                    ]
+                  },
+                  {
+                    "name": "DNA",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "AL",
+                "code": "AL",
+                "networks": [
+                  {
+                    "name": "Vodafone",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "AR",
+                "code": "AR",
+                "networks": [
+                  {
+                    "name": "Claro",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "AU",
+                "code": "AU",
+                "networks": [
+                  {
+                    "name": "Telstra",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "AT",
+                "code": "AT",
+                "networks": [
+                  {
+                    "name": "3 Drei",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "AZ",
+                "code": "AZ",
+                "networks": [
+                  {
+                    "name": "Azercell",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "BE",
+                "code": "BE",
+                "networks": [
+                  {
+                    "name": "Orange",
+                    "types": [
+                      "LTE"
+                    ]
+                  },
+                  {
+                    "name": "Proximus",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "BG",
+                "code": "BG",
+                "networks": [
+                  {
+                    "name": "A1",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "BA",
+                "code": "BA",
+                "networks": [
+                  {
+                    "name": "Eronet",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "BY",
+                "code": "BY",
+                "networks": [
+                  {
+                    "name": "A1",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "BR",
+                "code": "BR",
+                "networks": [
+                  {
+                    "name": "Claro",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "CH",
+                "code": "CH",
+                "networks": [
+                  {
+                    "name": "Sunrise",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "CL",
+                "code": "CL",
+                "networks": [
+                  {
+                    "name": "Entel",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "CO",
+                "code": "CO",
+                "networks": [
+                  {
+                    "name": "Claro",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "CY",
+                "code": "CY",
+                "networks": [
+                  {
+                    "name": "Vodafone",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "CZ",
+                "code": "CZ",
+                "networks": [
+                  {
+                    "name": "Vodafone",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "DK",
+                "code": "DK",
+                "networks": [
+                  {
+                    "name": "3",
+                    "types": [
+                      "LTE"
+                    ]
+                  },
+                  {
+                    "name": "Telenor",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "DO",
+                "code": "DO",
+                "networks": [
+                  {
+                    "name": "Claro",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EC",
+                "code": "EC",
+                "networks": [
+                  {
+                    "name": "Claro",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "EE",
+                "code": "EE",
+                "networks": [
+                  {
+                    "name": "EMT",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "GE",
+                "code": "GE",
+                "networks": [
+                  {
+                    "name": "MagtiCom",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "GI",
+                "code": "GI",
+                "networks": [
+                  {
+                    "name": "Gibtel",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "HR",
+                "code": "HR",
+                "networks": [
+                  {
+                    "name": "A1",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "HU",
+                "code": "HU",
+                "networks": [
+                  {
+                    "name": "T-Mobile",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "ID",
+                "code": "ID",
+                "networks": [
+                  {
+                    "name": "Excelcom(XL)",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "IN",
+                "code": "IN",
+                "networks": [
+                  {
+                    "name": "Vodafone",
+                    "types": [
+                      "3G"
+                    ]
+                  },
+                  {
+                    "name": "Idea",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "IE",
+                "code": "IE",
+                "networks": [
+                  {
+                    "name": "Vodafone",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "IQ",
+                "code": "IQ",
+                "networks": [
+                  {
+                    "name": "Zain",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "IS",
+                "code": "IS",
+                "networks": [
+                  {
+                    "name": "Nova",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "IL",
+                "code": "IL",
+                "networks": [
+                  {
+                    "name": "Orange",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "JE",
+                "code": "JE",
+                "networks": [
+                  {
+                    "name": "JT",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "KH",
+                "code": "KH",
+                "networks": [
+                  {
+                    "name": "Smart",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "KW",
+                "code": "KW",
+                "networks": [
+                  {
+                    "name": "Zain",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "LI",
+                "code": "LI",
+                "networks": [
+                  {
+                    "name": "FL1",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "LK",
+                "code": "LK",
+                "networks": [
+                  {
+                    "name": "3",
+                    "types": [
+                      "3G"
+                    ]
+                  },
+                  {
+                    "name": "Dialog",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "LT",
+                "code": "LT",
+                "networks": [
+                  {
+                    "name": "Telia",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "LU",
+                "code": "LU",
+                "networks": [
+                  {
+                    "name": "Tango",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "LV",
+                "code": "LV",
+                "networks": [
+                  {
+                    "name": "LMT",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "MO",
+                "code": "MO",
+                "networks": [
+                  {
+                    "name": "3",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "MD",
+                "code": "MD",
+                "networks": [
+                  {
+                    "name": "Moldova",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "MK",
+                "code": "MK",
+                "networks": [
+                  {
+                    "name": "A1",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "MT",
+                "code": "MT",
+                "networks": [
+                  {
+                    "name": "Vodafone",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "ME",
+                "code": "ME",
+                "networks": [
+                  {
+                    "name": "Telenor",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NL",
+                "code": "NL",
+                "networks": [
+                  {
+                    "name": "Vodafone",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NO",
+                "code": "NO",
+                "networks": [
+                  {
+                    "name": "Telenor",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NZ",
+                "code": "NZ",
+                "networks": [
+                  {
+                    "name": "Vodafone",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "PA",
+                "code": "PA",
+                "networks": [
+                  {
+                    "name": "Claro",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "PE",
+                "code": "PE",
+                "networks": [
+                  {
+                    "name": "Claro",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "PH",
+                "code": "PH",
+                "networks": [
+                  {
+                    "name": "Smart",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "PL",
+                "code": "PL",
+                "networks": [
+                  {
+                    "name": "Orange",
+                    "types": [
+                      "LTE"
+                    ]
+                  },
+                  {
+                    "name": "Plus",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "PR",
+                "code": "PR",
+                "networks": [
+                  {
+                    "name": "AT&T",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "PT",
+                "code": "PT",
+                "networks": [
+                  {
+                    "name": "Vodafone",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "PY",
+                "code": "PY",
+                "networks": [
+                  {
+                    "name": "Claro",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "QA",
+                "code": "QA",
+                "networks": [
+                  {
+                    "name": "Ooredoo",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "RO",
+                "code": "RO",
+                "networks": [
+                  {
+                    "name": "Vodafone",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "RU",
+                "code": "RU",
+                "networks": [
+                  {
+                    "name": "Beeline",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "SA",
+                "code": "SA",
+                "networks": [
+                  {
+                    "name": "Zain",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "SD",
+                "code": "SD",
+                "networks": [
+                  {
+                    "name": "Zain",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "RS",
+                "code": "RS",
+                "networks": [
+                  {
+                    "name": "Telenor",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "SK",
+                "code": "SK",
+                "networks": [
+                  {
+                    "name": "Orange",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "SI",
+                "code": "SI",
+                "networks": [
+                  {
+                    "name": "A1",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "SE",
+                "code": "SE",
+                "networks": [
+                  {
+                    "name": "3",
+                    "types": [
+                      "LTE"
+                    ]
+                  },
+                  {
+                    "name": "Telenor",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "TJ",
+                "code": "TJ",
+                "networks": [
+                  {
+                    "name": "Beeline",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "TW",
+                "code": "TW",
+                "networks": [
+                  {
+                    "name": "Chungwa",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "UA",
+                "code": "UA",
+                "networks": [
+                  {
+                    "name": "lifecell",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "VI",
+                "code": "VI",
+                "networks": [
+                  {
+                    "name": "AT&T",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "VN",
+                "code": "VN",
+                "networks": [
+                  {
+                    "name": "Vietnamobile",
+                    "types": [
+                      "3G"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "ZA",
+                "code": "ZA",
+                "networks": [
+                  {
+                    "name": "Vodacom",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "XK",
+                "code": "XK",
+                "networks": [
+                  {
+                    "name": "Vala",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "install_window_days": null,
+            "topup_grace_window_days": null,
+            "apn": {
+              "ios": {
+                "apn_type": "manual",
+                "apn_value": "globaldata"
+              },
+              "android": {
+                "apn_type": "manual",
+                "apn_value": "globaldata"
+              }
+            },
+            "packages": [
+              {
+                "id": "discover-global-7days-1gb",
+                "type": "sim",
+                "price": 9,
+                "amount": 1024,
+                "day": 7,
+                "is_unlimited": false,
+                "title": "1 GB - 7 Days",
+                "short_info": "This eSIM doesn't come with a phone number.",
+                "qr_installation": "<p><b>eSIM name:</b> Discover Global<br></p><p><b>Coverage: </b> Aland Islands, Albania, Argentina, Armenia, Australia, Austria, Azerbaijan, Belarus, Belgium, Bosnia and Herzegovina, Brazil, Bulgaria, Cambodia, Canada, Chile, China, Colombia, Croatia, Cyprus, Czech Republic, Denmark, Dominican Republic, Ecuador, Estonia, Finland, France, Georgia, Germany, Ghana, Gibraltar, Greece, Hong Kong, Hungary, Iceland, India, Indonesia, Iraq, Ireland, Israel, Italy, Japan, Jersey, Kazakhstan, Kosovo, Kuwait, Kyrgyzstan, Latvia, Liechtenstein, Lithuania, Luxembourg, Macau, Macedonia, Malaysia, Malta, Mexico, Moldova, Montenegro, Netherlands, New Zealand, Norway, Panama, Paraguay, Peru, Philippines, Poland, Portugal, Puerto Rico, Qatar, Romania, Russia, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Sudan, Sweden, Switzerland, Taiwan, Tajikistan, Thailand, Turkey, Ukraine, United Kingdom, United States, US Virgin Islands, Vietnam.</p><p><b>To activate the eSIM by scanning the QR code on your eSIM capable device you need to print or display this QR code on other device:</b></p><ol><li>Settings > Cellular/Mobile > Add Cellular/Mobile Plan.</li><li>Scan QR code.</li><li>Confirm eSIM plan details.</li><li>Label the eSIM.</li></ol><p><b>To access Data in the following countries:</b></p><p>Argentina, Brazil, Canada, Chile, Colombia, Ecuador, Mexico, Panama, Paraguay, Peru, Puerto Rico, United States, US Virgin Islands</p><ol><li>Locate the APN settings in your settings menu.</li><li>Update the APN to \"tn1\".</li><li>Enable data roaming.</li></ol><p><b>To access Data in other countries:</b></p><ol><li>Locate the APN settings in your settings menu.</li><li>Update the APN to \"rh\" or \"globaldata\".</li><li>Enable data roaming.</li></ol><p><b>To top up:</b></p><p>Visit airalo.com/my-esims or if purchased through the Airalo website/app visit “My eSIMs” tab.</p>",
+                "manual_installation": "<p><b>eSIM name:</b> Discover Global<br></p><p><b>Coverage: </b> Aland Islands, Albania, Argentina, Armenia, Australia, Austria, Azerbaijan, Belarus, Belgium, Bosnia and Herzegovina, Brazil, Bulgaria, Cambodia, Canada, Chile, China, Colombia, Croatia, Cyprus, Czech Republic, Denmark, Dominican Republic, Ecuador, Estonia, Finland, France, Georgia, Germany, Ghana, Gibraltar, Greece, Hong Kong, Hungary, Iceland, India, Indonesia, Iraq, Ireland, Israel, Italy, Japan, Jersey, Kazakhstan, Kosovo, Kuwait, Kyrgyzstan, Latvia, Liechtenstein, Lithuania, Luxembourg, Macau, Macedonia, Malaysia, Malta, Mexico, Moldova, Montenegro, Netherlands, New Zealand, Norway, Panama, Paraguay, Peru, Philippines, Poland, Portugal, Puerto Rico, Qatar, Romania, Russia, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Sudan, Sweden, Switzerland, Taiwan, Tajikistan, Thailand, Turkey, Ukraine, United Kingdom, United States, US Virgin Islands, Vietnam.</p><p><b>To manually activate the eSIM on your eSIM capable device:</b></p><ol><li>Settings > Cellular/Mobile > Add Cellular/Mobile Plan.</li><li>Manually enter the SM-DP+ Address and activation code.</li><li>Confirm eSIM plan details.</li><li>Label the eSIM.</li></ol><ol></ol><p><b>To access Data in the following countries:</b></p><p>Argentina, Brazil, Canada, Chile, Colombia, Ecuador, Mexico, Panama, Paraguay, Peru, Puerto Rico, United States, US Virgin Islands</p><ol><li>Locate the APN settings in your settings menu.</li><li>Update the APN to \"tn1\".</li><li>Enable data roaming.</li></ol><p><b>To access Data in other countries:</b></p><ol><li>Locate the APN settings in your settings menu.</li><li>Update the APN to \"rh\" or \"globaldata\".</li><li>Enable data roaming.</li></ol><p><b>To top up:</b></p><p>Visit airalo.com/my-esims or if purchased through the Airalo website/app visit “My eSIMs” tab.</p>",
+                "data": "1 GB",
+                "voice": null,
+                "text": null,
+                "net_price": 7.2,
+                "prices": {
+                  "net_price": {
+                    "AUD": 11.23,
+                    "BRL": 40.97,
+                    "GBP": 5.33,
+                    "AED": 26.42,
+                    "EUR": 6.41,
+                    "ILS": 25.27,
+                    "JPY": 1049,
+                    "MXN": 139.61,
+                    "USD": 7.2,
+                    "VND": 186781
+                  },
+                  "recommended_retail_price": {
+                    "AUD": 14.04,
+                    "BRL": 51.21,
+                    "GBP": 6.66,
+                    "AED": 33.03,
+                    "EUR": 8.01,
+                    "ILS": 31.59,
+                    "JPY": 1312,
+                    "MXN": 174.51,
+                    "USD": 9,
+                    "VND": 233476
+                  }
+                }
+              },
+              {
+                "id": "discover-global-15days-3gb",
+                "type": "sim",
+                "price": 24,
+                "amount": 3072,
+                "day": 15,
+                "is_unlimited": false,
+                "title": "3 GB - 15 Days",
+                "short_info": "This eSIM doesn't come with a phone number.",
+                "qr_installation": "<p><b>eSIM name:</b> Discover Global<br></p><p><b>Coverage: </b> Aland Islands, Albania, Argentina, Armenia, Australia, Austria, Azerbaijan, Belarus, Belgium, Bosnia and Herzegovina, Brazil, Bulgaria, Cambodia, Canada, Chile, China, Colombia, Croatia, Cyprus, Czech Republic, Denmark, Dominican Republic, Ecuador, Estonia, Finland, France, Georgia, Germany, Ghana, Gibraltar, Greece, Hong Kong, Hungary, Iceland, India, Indonesia, Iraq, Ireland, Israel, Italy, Japan, Jersey, Kazakhstan, Kosovo, Kuwait, Kyrgyzstan, Latvia, Liechtenstein, Lithuania, Luxembourg, Macau, Macedonia, Malaysia, Malta, Mexico, Moldova, Montenegro, Netherlands, New Zealand, Norway, Panama, Paraguay, Peru, Philippines, Poland, Portugal, Puerto Rico, Qatar, Romania, Russia, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Sudan, Sweden, Switzerland, Taiwan, Tajikistan, Thailand, Turkey, Ukraine, United Kingdom, United States, US Virgin Islands, Vietnam.</p><p><b>To activate the eSIM by scanning the QR code on your eSIM capable device you need to print or display this QR code on other device:</b></p><ol><li>Settings > Cellular/Mobile > Add Cellular/Mobile Plan.</li><li>Scan QR code.</li><li>Confirm eSIM plan details.</li><li>Label the eSIM.</li></ol><p><b>To access Data in the following countries:</b></p><p>Argentina, Brazil, Canada, Chile, Colombia, Ecuador, Mexico, Panama, Paraguay, Peru, Puerto Rico, United States, US Virgin Islands</p><ol><li>Locate the APN settings in your settings menu.</li><li>Update the APN to \"tn1\".</li><li>Enable data roaming.</li></ol><p><b>To access Data in other countries:</b></p><ol><li>Locate the APN settings in your settings menu.</li><li>Update the APN to \"rh\" or \"globaldata\".</li><li>Enable data roaming.</li></ol><p><b>To top up:</b></p><p>Visit airalo.com/my-esims or if purchased through the Airalo website/app visit “My eSIMs” tab.</p>",
+                "manual_installation": "<p><b>eSIM name:</b> Discover Global<br></p><p><b>Coverage: </b> Aland Islands, Albania, Argentina, Armenia, Australia, Austria, Azerbaijan, Belarus, Belgium, Bosnia and Herzegovina, Brazil, Bulgaria, Cambodia, Canada, Chile, China, Colombia, Croatia, Cyprus, Czech Republic, Denmark, Dominican Republic, Ecuador, Estonia, Finland, France, Georgia, Germany, Ghana, Gibraltar, Greece, Hong Kong, Hungary, Iceland, India, Indonesia, Iraq, Ireland, Israel, Italy, Japan, Jersey, Kazakhstan, Kosovo, Kuwait, Kyrgyzstan, Latvia, Liechtenstein, Lithuania, Luxembourg, Macau, Macedonia, Malaysia, Malta, Mexico, Moldova, Montenegro, Netherlands, New Zealand, Norway, Panama, Paraguay, Peru, Philippines, Poland, Portugal, Puerto Rico, Qatar, Romania, Russia, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Sudan, Sweden, Switzerland, Taiwan, Tajikistan, Thailand, Turkey, Ukraine, United Kingdom, United States, US Virgin Islands, Vietnam.</p><p><b>To manually activate the eSIM on your eSIM capable device:</b></p><ol><li>Settings > Cellular/Mobile > Add Cellular/Mobile Plan.</li><li>Manually enter the SM-DP+ Address and activation code.</li><li>Confirm eSIM plan details.</li><li>Label the eSIM.</li></ol><ol></ol><p><b>To access Data in the following countries:</b></p><p>Argentina, Brazil, Canada, Chile, Colombia, Ecuador, Mexico, Panama, Paraguay, Peru, Puerto Rico, United States, US Virgin Islands</p><ol><li>Locate the APN settings in your settings menu.</li><li>Update the APN to \"tn1\".</li><li>Enable data roaming.</li></ol><p><b>To access Data in other countries:</b></p><ol><li>Locate the APN settings in your settings menu.</li><li>Update the APN to \"rh\" or \"globaldata\".</li><li>Enable data roaming.</li></ol><p><b>To top up:</b></p><p>Visit airalo.com/my-esims or if purchased through the Airalo website/app visit “My eSIMs” tab.</p>",
+                "data": "3 GB",
+                "voice": null,
+                "text": null,
+                "net_price": 19.2,
+                "prices": {
+                  "net_price": {
+                    "AUD": 29.95,
+                    "BRL": 109.25,
+                    "GBP": 14.21,
+                    "AED": 70.46,
+                    "EUR": 17.09,
+                    "ILS": 67.39,
+                    "JPY": 2798,
+                    "MXN": 372.29,
+                    "USD": 19.2,
+                    "VND": 498083
+                  },
+                  "recommended_retail_price": {
+                    "AUD": 37.44,
+                    "BRL": 136.56,
+                    "GBP": 17.76,
+                    "AED": 88.08,
+                    "EUR": 21.36,
+                    "ILS": 84.24,
+                    "JPY": 3498,
+                    "MXN": 465.36,
+                    "USD": 24,
+                    "VND": 622603
+                  }
+                }
+              },
+              {
+                "id": "discover-global-30days-5gb",
+                "type": "sim",
+                "price": 35,
+                "amount": 5120,
+                "day": 30,
+                "is_unlimited": false,
+                "title": "5 GB - 30 Days",
+                "short_info": "This eSIM doesn't come with a number.",
+                "qr_installation": "<p><b>eSIM name:</b> Discover Global<br></p><p><b>Coverage: </b> Aland Islands, Albania, Argentina, Armenia, Australia, Austria, Azerbaijan, Belarus, Belgium, Bosnia and Herzegovina, Brazil, Bulgaria, Cambodia, Canada, Chile, China, Colombia, Croatia, Cyprus, Czech Republic, Denmark, Dominican Republic, Ecuador, Estonia, Finland, France, Georgia, Germany, Ghana, Gibraltar, Greece, Hong Kong, Hungary, Iceland, India, Indonesia, Iraq, Ireland, Israel, Italy, Japan, Jersey, Kazakhstan, Kosovo, Kuwait, Kyrgyzstan, Latvia, Liechtenstein, Lithuania, Luxembourg, Macau, Macedonia, Malaysia, Malta, Mexico, Moldova, Montenegro, Netherlands, New Zealand, Norway, Panama, Paraguay, Peru, Philippines, Poland, Portugal, Puerto Rico, Qatar, Romania, Russia, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Sudan, Sweden, Switzerland, Taiwan, Tajikistan, Thailand, Turkey, Ukraine, United Kingdom, United States, US Virgin Islands, Vietnam.</p><p><b>To activate the eSIM by scanning the QR code on your eSIM capable device you need to print or display this QR code on other device:</b></p><ol><li>Settings > Cellular/Mobile > Add Cellular/Mobile Plan.</li><li>Scan QR code.</li><li>Confirm eSIM plan details.</li><li>Label the eSIM.</li></ol><p><b>To access Data in the following countries:</b></p><p>Argentina, Brazil, Canada, Chile, Colombia, Ecuador, Mexico, Panama, Paraguay, Peru, Puerto Rico, United States, US Virgin Islands</p><ol><li>Locate the APN settings in your settings menu.</li><li>Update the APN to \"tn1\".</li><li>Enable data roaming.</li></ol><p><b>To access Data in other countries:</b></p><ol><li>Locate the APN settings in your settings menu.</li><li>Update the APN to \"rh\" or \"globaldata\".</li><li>Enable data roaming.</li></ol><p><b>To top up:</b></p><p>Visit airalo.com/my-esims or if purchased through the Airalo website/app visit “My eSIMs” tab.</p>",
+                "manual_installation": "<p><b>eSIM name:</b> Discover Global<br></p><p><b>Coverage: </b> Aland Islands, Albania, Argentina, Armenia, Australia, Austria, Azerbaijan, Belarus, Belgium, Bosnia and Herzegovina, Brazil, Bulgaria, Cambodia, Canada, Chile, China, Colombia, Croatia, Cyprus, Czech Republic, Denmark, Dominican Republic, Ecuador, Estonia, Finland, France, Georgia, Germany, Ghana, Gibraltar, Greece, Hong Kong, Hungary, Iceland, India, Indonesia, Iraq, Ireland, Israel, Italy, Japan, Jersey, Kazakhstan, Kosovo, Kuwait, Kyrgyzstan, Latvia, Liechtenstein, Lithuania, Luxembourg, Macau, Macedonia, Malaysia, Malta, Mexico, Moldova, Montenegro, Netherlands, New Zealand, Norway, Panama, Paraguay, Peru, Philippines, Poland, Portugal, Puerto Rico, Qatar, Romania, Russia, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Sudan, Sweden, Switzerland, Taiwan, Tajikistan, Thailand, Turkey, Ukraine, United Kingdom, United States, US Virgin Islands, Vietnam.</p><p><b>To manually activate the eSIM on your eSIM capable device:</b></p><ol><li>Settings > Cellular/Mobile > Add Cellular/Mobile Plan.</li><li>Manually enter the SM-DP+ Address and activation code.</li><li>Confirm eSIM plan details.</li><li>Label the eSIM.</li></ol><ol></ol><p><b>To access Data in the following countries:</b></p><p>Argentina, Brazil, Canada, Chile, Colombia, Ecuador, Mexico, Panama, Paraguay, Peru, Puerto Rico, United States, US Virgin Islands</p><ol><li>Locate the APN settings in your settings menu.</li><li>Update the APN to \"tn1\".</li><li>Enable data roaming.</li></ol><p><b>To access Data in other countries:</b></p><ol><li>Locate the APN settings in your settings menu.</li><li>Update the APN to \"rh\" or \"globaldata\".</li><li>Enable data roaming.</li></ol><p><b>To top up:</b></p><p>Visit airalo.com/my-esims or if purchased through the Airalo website/app visit “My eSIMs” tab.</p>",
+                "data": "5 GB",
+                "voice": null,
+                "text": null,
+                "net_price": 28,
+                "prices": {
+                  "net_price": {
+                    "AUD": 43.68,
+                    "BRL": 159.32,
+                    "GBP": 20.72,
+                    "AED": 102.76,
+                    "EUR": 24.92,
+                    "ILS": 98.28,
+                    "JPY": 4080,
+                    "MXN": 542.92,
+                    "USD": 28,
+                    "VND": 726370
+                  },
+                  "recommended_retail_price": {
+                    "AUD": 54.6,
+                    "BRL": 199.15,
+                    "GBP": 25.9,
+                    "AED": 128.45,
+                    "EUR": 31.15,
+                    "ILS": 122.85,
+                    "JPY": 5101,
+                    "MXN": 678.65,
+                    "USD": 35,
+                    "VND": 907963
+                  }
+                }
+              },
+              {
+                "id": "discover-global-60days-10gb",
+                "type": "sim",
+                "price": 59,
+                "amount": 10240,
+                "day": 60,
+                "is_unlimited": false,
+                "title": "10 GB - 60 Days",
+                "short_info": "This eSIM doesn't come with a number.",
+                "qr_installation": "<p><b>eSIM name:</b> Discover Global<br></p><p><b>Coverage: </b> Aland Islands, Albania, Argentina, Armenia, Australia, Austria, Azerbaijan, Belarus, Belgium, Bosnia and Herzegovina, Brazil, Bulgaria, Cambodia, Canada, Chile, China, Colombia, Croatia, Cyprus, Czech Republic, Denmark, Dominican Republic, Ecuador, Estonia, Finland, France, Georgia, Germany, Ghana, Gibraltar, Greece, Hong Kong, Hungary, Iceland, India, Indonesia, Iraq, Ireland, Israel, Italy, Japan, Jersey, Kazakhstan, Kosovo, Kuwait, Kyrgyzstan, Latvia, Liechtenstein, Lithuania, Luxembourg, Macau, Macedonia, Malaysia, Malta, Mexico, Moldova, Montenegro, Netherlands, New Zealand, Norway, Panama, Paraguay, Peru, Philippines, Poland, Portugal, Puerto Rico, Qatar, Romania, Russia, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Sudan, Sweden, Switzerland, Taiwan, Tajikistan, Thailand, Turkey, Ukraine, United Kingdom, United States, US Virgin Islands, Vietnam.</p><p><b>To activate the eSIM by scanning the QR code on your eSIM capable device you need to print or display this QR code on other device:</b></p><ol><li>Settings > Cellular/Mobile > Add Cellular/Mobile Plan.</li><li>Scan QR code.</li><li>Confirm eSIM plan details.</li><li>Label the eSIM.</li></ol><p><b>To access Data in the following countries:</b></p><p>Argentina, Brazil, Canada, Chile, Colombia, Ecuador, Mexico, Panama, Paraguay, Peru, Puerto Rico, United States, US Virgin Islands</p><ol><li>Locate the APN settings in your settings menu.</li><li>Update the APN to \"tn1\".</li><li>Enable data roaming.</li></ol><p><b>To access Data in other countries:</b></p><ol><li>Locate the APN settings in your settings menu.</li><li>Update the APN to \"rh\" or \"globaldata\".</li><li>Enable data roaming.</li></ol><p><b>To top up:</b></p><p>Visit airalo.com/my-esims or if purchased through the Airalo website/app visit “My eSIMs” tab.</p>",
+                "manual_installation": "<p><b>eSIM name:</b> Discover Global<br></p><p><b>Coverage: </b> Aland Islands, Albania, Argentina, Armenia, Australia, Austria, Azerbaijan, Belarus, Belgium, Bosnia and Herzegovina, Brazil, Bulgaria, Cambodia, Canada, Chile, China, Colombia, Croatia, Cyprus, Czech Republic, Denmark, Dominican Republic, Ecuador, Estonia, Finland, France, Georgia, Germany, Ghana, Gibraltar, Greece, Hong Kong, Hungary, Iceland, India, Indonesia, Iraq, Ireland, Israel, Italy, Japan, Jersey, Kazakhstan, Kosovo, Kuwait, Kyrgyzstan, Latvia, Liechtenstein, Lithuania, Luxembourg, Macau, Macedonia, Malaysia, Malta, Mexico, Moldova, Montenegro, Netherlands, New Zealand, Norway, Panama, Paraguay, Peru, Philippines, Poland, Portugal, Puerto Rico, Qatar, Romania, Russia, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Sudan, Sweden, Switzerland, Taiwan, Tajikistan, Thailand, Turkey, Ukraine, United Kingdom, United States, US Virgin Islands, Vietnam.</p><p><b>To manually activate the eSIM on your eSIM capable device:</b></p><ol><li>Settings > Cellular/Mobile > Add Cellular/Mobile Plan.</li><li>Manually enter the SM-DP+ Address and activation code.</li><li>Confirm eSIM plan details.</li><li>Label the eSIM.</li></ol><ol></ol><p><b>To access Data in the following countries:</b></p><p>Argentina, Brazil, Canada, Chile, Colombia, Ecuador, Mexico, Panama, Paraguay, Peru, Puerto Rico, United States, US Virgin Islands</p><ol><li>Locate the APN settings in your settings menu.</li><li>Update the APN to \"tn1\".</li><li>Enable data roaming.</li></ol><p><b>To access Data in other countries:</b></p><ol><li>Locate the APN settings in your settings menu.</li><li>Update the APN to \"rh\" or \"globaldata\".</li><li>Enable data roaming.</li></ol><p><b>To top up:</b></p><p>Visit airalo.com/my-esims or if purchased through the Airalo website/app visit “My eSIMs” tab.</p>",
+                "data": "10 GB",
+                "voice": null,
+                "text": null,
+                "net_price": 47.2,
+                "prices": {
+                  "net_price": {
+                    "AUD": 73.63,
+                    "BRL": 268.57,
+                    "GBP": 34.93,
+                    "AED": 173.22,
+                    "EUR": 42.01,
+                    "ILS": 165.67,
+                    "JPY": 6878,
+                    "MXN": 915.21,
+                    "USD": 47.2,
+                    "VND": 1224453
+                  },
+                  "recommended_retail_price": {
+                    "AUD": 92.04,
+                    "BRL": 335.71,
+                    "GBP": 43.66,
+                    "AED": 216.53,
+                    "EUR": 52.51,
+                    "ILS": 207.09,
+                    "JPY": 8598,
+                    "MXN": 1144.01,
+                    "USD": 59,
+                    "VND": 1530566
+                  }
+                }
+              },
+              {
+                "id": "discover-global-180days-20gb",
+                "type": "sim",
+                "price": 89,
+                "amount": 20480,
+                "day": 180,
+                "is_unlimited": false,
+                "title": "20 GB - 180 Days",
+                "short_info": "This eSIM doesn't come with a number.",
+                "qr_installation": "<p><b>eSIM name:</b> Discover Global<br></p><p><b>Coverage: </b> Aland Islands, Albania, Argentina, Armenia, Australia, Austria, Azerbaijan, Belarus, Belgium, Bosnia and Herzegovina, Brazil, Bulgaria, Cambodia, Canada, Chile, China, Colombia, Croatia, Cyprus, Czech Republic, Denmark, Dominican Republic, Ecuador, Estonia, Finland, France, Georgia, Germany, Ghana, Gibraltar, Greece, Hong Kong, Hungary, Iceland, India, Indonesia, Iraq, Ireland, Israel, Italy, Japan, Jersey, Kazakhstan, Kosovo, Kuwait, Kyrgyzstan, Latvia, Liechtenstein, Lithuania, Luxembourg, Macau, Macedonia, Malaysia, Malta, Mexico, Moldova, Montenegro, Netherlands, New Zealand, Norway, Panama, Paraguay, Peru, Philippines, Poland, Portugal, Puerto Rico, Qatar, Romania, Russia, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Sudan, Sweden, Switzerland, Taiwan, Tajikistan, Thailand, Turkey, Ukraine, United Kingdom, United States, US Virgin Islands, Vietnam.</p><p><b>To activate the eSIM by scanning the QR code on your eSIM capable device you need to print or display this QR code on other device:</b></p><ol><li>Settings > Cellular/Mobile > Add Cellular/Mobile Plan.</li><li>Scan QR code.</li><li>Confirm eSIM plan details.</li><li>Label the eSIM.</li></ol><p><b>To access Data in the following countries:</b></p><p>Argentina, Brazil, Canada, Chile, Colombia, Ecuador, Mexico, Panama, Paraguay, Peru, Puerto Rico, United States, US Virgin Islands</p><ol><li>Locate the APN settings in your settings menu.</li><li>Update the APN to \"tn1\".</li><li>Enable data roaming.</li></ol><p><b>To access Data in other countries:</b></p><ol><li>Locate the APN settings in your settings menu.</li><li>Update the APN to \"rh\" or \"globaldata\".</li><li>Enable data roaming.</li></ol><p><b>To top up:</b></p><p>Visit airalo.com/my-esims or if purchased through the Airalo website/app visit “My eSIMs” tab.</p>",
+                "manual_installation": "<p><b>eSIM name:</b> Discover Global<br></p><p><b>Coverage: </b> Aland Islands, Albania, Argentina, Armenia, Australia, Austria, Azerbaijan, Belarus, Belgium, Bosnia and Herzegovina, Brazil, Bulgaria, Cambodia, Canada, Chile, China, Colombia, Croatia, Cyprus, Czech Republic, Denmark, Dominican Republic, Ecuador, Estonia, Finland, France, Georgia, Germany, Ghana, Gibraltar, Greece, Hong Kong, Hungary, Iceland, India, Indonesia, Iraq, Ireland, Israel, Italy, Japan, Jersey, Kazakhstan, Kosovo, Kuwait, Kyrgyzstan, Latvia, Liechtenstein, Lithuania, Luxembourg, Macau, Macedonia, Malaysia, Malta, Mexico, Moldova, Montenegro, Netherlands, New Zealand, Norway, Panama, Paraguay, Peru, Philippines, Poland, Portugal, Puerto Rico, Qatar, Romania, Russia, Saudi Arabia, Serbia, Singapore, Slovakia, Slovenia, South Africa, South Korea, Spain, Sri Lanka, Sudan, Sweden, Switzerland, Taiwan, Tajikistan, Thailand, Turkey, Ukraine, United Kingdom, United States, US Virgin Islands, Vietnam.</p><p><b>To manually activate the eSIM on your eSIM capable device:</b></p><ol><li>Settings > Cellular/Mobile > Add Cellular/Mobile Plan.</li><li>Manually enter the SM-DP+ Address and activation code.</li><li>Confirm eSIM plan details.</li><li>Label the eSIM.</li></ol><ol></ol><p><b>To access Data in the following countries:</b></p><p>Argentina, Brazil, Canada, Chile, Colombia, Ecuador, Mexico, Panama, Paraguay, Peru, Puerto Rico, United States, US Virgin Islands</p><ol><li>Locate the APN settings in your settings menu.</li><li>Update the APN to \"tn1\".</li><li>Enable data roaming.</li></ol><p><b>To access Data in other countries:</b></p><ol><li>Locate the APN settings in your settings menu.</li><li>Update the APN to \"rh\" or \"globaldata\".</li><li>Enable data roaming.</li></ol><p><b>To top up:</b></p><p>Visit airalo.com/my-esims or if purchased through the Airalo website/app visit “My eSIMs” tab.</p>",
+                "data": "20 GB",
+                "voice": null,
+                "text": null,
+                "net_price": 71.2,
+                "prices": {
+                  "net_price": {
+                    "AUD": 111.07,
+                    "BRL": 405.13,
+                    "GBP": 52.69,
+                    "AED": 261.3,
+                    "EUR": 63.37,
+                    "ILS": 249.91,
+                    "JPY": 10376,
+                    "MXN": 1380.57,
+                    "USD": 71.2,
+                    "VND": 1847056
+                  },
+                  "recommended_retail_price": {
+                    "AUD": 138.84,
+                    "BRL": 506.41,
+                    "GBP": 65.86,
+                    "AED": 326.63,
+                    "EUR": 79.21,
+                    "ILS": 312.39,
+                    "JPY": 12970,
+                    "MXN": 1725.71,
+                    "USD": 89,
+                    "VND": 2308820
+                  }
+                }
+              }
+            ],
+            "countries": [
+              {
+                "country_code": "FI",
+                "title": "Finland",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/dbe765fe-d3aa-47e5-a3f6-7905daac254c.png"
+                }
+              },
+              {
+                "country_code": "AL",
+                "title": "Albania",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/14a24e00-4bea-424a-82f8-f3a368832bda.png"
+                }
+              },
+              {
+                "country_code": "AR",
+                "title": "Argentina",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/a4369e1b-a2dc-441f-9625-5f6c29b5fcbb.png"
+                }
+              },
+              {
+                "country_code": "AM",
+                "title": "Armenia",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/2a63eb3a-c9d0-4f62-873a-5cc8dd10d6b2.png"
+                }
+              },
+              {
+                "country_code": "AU",
+                "title": "Australia",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/7eb3b9ab-2fa8-4906-8284-4551bd225b8b.png"
+                }
+              },
+              {
+                "country_code": "AT",
+                "title": "Austria",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/feb05d59-b82c-43cd-a099-e58691b9ff3b.png"
+                }
+              },
+              {
+                "country_code": "AZ",
+                "title": "Azerbaijan",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/ffa960e3-5a25-49fc-a942-4a39328a6b8e.png"
+                }
+              },
+              {
+                "country_code": "BY",
+                "title": "Belarus",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/55f0f01b-e9b6-405a-926c-d705fd033e1c.png"
+                }
+              },
+              {
+                "country_code": "BE",
+                "title": "Belgium",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/9107d327-6b75-423c-9376-08c9c028f97a.png"
+                }
+              },
+              {
+                "country_code": "BA",
+                "title": "Bosnia and Herzegovina",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/44adb26f-ee9c-4911-a95f-581db3778b33.png"
+                }
+              },
+              {
+                "country_code": "BR",
+                "title": "Brazil",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/b9c51b73-e32a-467f-a8de-b8983832d868.png"
+                }
+              },
+              {
+                "country_code": "BG",
+                "title": "Bulgaria",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/d0f1fce2-93c5-49c2-a35a-29c21b06691c.png"
+                }
+              },
+              {
+                "country_code": "KH",
+                "title": "Cambodia",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/793127da-5912-4c4d-9fa9-9d061522d98d.png"
+                }
+              },
+              {
+                "country_code": "CA",
+                "title": "Canada",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/5f5333a3-caf9-4cb9-a0c9-dcd852ba1ef3.png"
+                }
+              },
+              {
+                "country_code": "CL",
+                "title": "Chile",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/5f284829-0f9f-45aa-8f87-e39a3f715185.png"
+                }
+              },
+              {
+                "country_code": "CN",
+                "title": "China",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/33ac2270-1e02-42ad-95a3-5debda42c1b0.png"
+                }
+              },
+              {
+                "country_code": "CO",
+                "title": "Colombia",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/8f2f85c9-8151-457e-9c2c-097a8e7f1f7d.png"
+                }
+              },
+              {
+                "country_code": "HR",
+                "title": "Croatia",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/d1ab439e-877f-43ea-a5ce-f5886e779730.png"
+                }
+              },
+              {
+                "country_code": "CY",
+                "title": "Cyprus",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/79dc934e-07f6-4dfe-a58d-9681a1339039.png"
+                }
+              },
+              {
+                "country_code": "CZ",
+                "title": "Czech Republic",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/1255ebde-c2a5-49be-a431-7cddf6ca5658.png"
+                }
+              },
+              {
+                "country_code": "DK",
+                "title": "Denmark",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/027eca61-503f-4386-bad4-753389e871a8.png"
+                }
+              },
+              {
+                "country_code": "DO",
+                "title": "Dominican Republic",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/d92dbf83-c2b9-4b06-b60f-5ba7c7e95881.png"
+                }
+              },
+              {
+                "country_code": "EC",
+                "title": "Ecuador",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/7cf8ac3e-ffb0-4d58-8723-e8552ed5c1b9.png"
+                }
+              },
+              {
+                "country_code": "EE",
+                "title": "Estonia",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/26884e1a-2120-42f3-b38a-9ddb3afedf73.png"
+                }
+              },
+              {
+                "country_code": "FR",
+                "title": "France",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/0c898a76-aa43-4b5a-b502-7afb8f917591.png"
+                }
+              },
+              {
+                "country_code": "GE",
+                "title": "Georgia",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/fa12ce75-aa47-467f-9b55-b3362337a548.png"
+                }
+              },
+              {
+                "country_code": "DE",
+                "title": "Germany",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/02ee9c92-ba8a-42ed-a79f-82a3f504eb2b.png"
+                }
+              },
+              {
+                "country_code": "GI",
+                "title": "Gibraltar",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/2c3e8117-7d71-44d0-a91f-479d8807bca9.png"
+                }
+              },
+              {
+                "country_code": "GR",
+                "title": "Greece",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/2fbb44c7-7ee5-4ad7-9b35-cd954a8b9a23.png"
+                }
+              },
+              {
+                "country_code": "HK",
+                "title": "Hong Kong",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/ca6cf959-521d-47dc-ad83-3249deb1ed2f.png"
+                }
+              },
+              {
+                "country_code": "HU",
+                "title": "Hungary",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/5f679ad3-610a-41e1-b363-3eb98d93dc14.png"
+                }
+              },
+              {
+                "country_code": "IS",
+                "title": "Iceland",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/a3c069d8-1d6a-4f69-b39b-1e6a77408d15.png"
+                }
+              },
+              {
+                "country_code": "IN",
+                "title": "India",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/172fe4b2-f8ec-4407-91da-6acd383ef07d.png"
+                }
+              },
+              {
+                "country_code": "ID",
+                "title": "Indonesia",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/206c2019-efb4-439b-a8c9-8ad5b91572b8.png"
+                }
+              },
+              {
+                "country_code": "IQ",
+                "title": "Iraq",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/5009ba97-4b30-448c-90e2-f2c61b7135db.png"
+                }
+              },
+              {
+                "country_code": "IE",
+                "title": "Ireland",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/f100360f-8eae-43bf-8d1f-0deddc80e8cf.png"
+                }
+              },
+              {
+                "country_code": "IL",
+                "title": "Israel",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/c00614f6-8a0b-45d5-99c6-954aba299226.png"
+                }
+              },
+              {
+                "country_code": "IT",
+                "title": "Italy",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/828a79d8-be20-4ee5-9304-45e081b6faaa.png"
+                }
+              },
+              {
+                "country_code": "JP",
+                "title": "Japan",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/abcdb132-c40f-4f28-8448-2b985be75f32.png"
+                }
+              },
+              {
+                "country_code": "JE",
+                "title": "Jersey",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/a1527fa6-60de-46c5-96cd-9a6b3f9ed8b7.png"
+                }
+              },
+              {
+                "country_code": "KZ",
+                "title": "Kazakhstan",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/4f71a3f5-d631-4390-a236-92a3d4ce068b.png"
+                }
+              },
+              {
+                "country_code": "XK",
+                "title": "Kosovo",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/dd210939-1dba-4862-9296-cf246cf63ac9.png"
+                }
+              },
+              {
+                "country_code": "KW",
+                "title": "Kuwait",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/2d1e7b0b-ec19-43a5-933a-26b40955f146.png"
+                }
+              },
+              {
+                "country_code": "KG",
+                "title": "Kyrgyzstan",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/8e00f4c8-587d-4994-840a-a20d78ad6ea6.png"
+                }
+              },
+              {
+                "country_code": "LV",
+                "title": "Latvia",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/9f0d9ad3-65c3-4506-9cdc-534f51d4e82a.png"
+                }
+              },
+              {
+                "country_code": "LI",
+                "title": "Liechtenstein",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/c2c660c9-0859-4ca1-85d5-5e3db2ab8ea3.png"
+                }
+              },
+              {
+                "country_code": "LT",
+                "title": "Lithuania",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/1867cf44-248e-4914-8918-6120e7396fe7.png"
+                }
+              },
+              {
+                "country_code": "LU",
+                "title": "Luxembourg",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/c63bb2ba-9dc7-4f46-93e8-43e30d7c57c0.png"
+                }
+              },
+              {
+                "country_code": "MO",
+                "title": "Macau",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/ef5a442d-7d6f-4604-9562-4000295bd60d.png"
+                }
+              },
+              {
+                "country_code": "MK",
+                "title": "Macedonia",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/80cb46d8-506c-4c52-9a1f-341415d8e55f.png"
+                }
+              },
+              {
+                "country_code": "MY",
+                "title": "Malaysia",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/6ce40fe1-8405-477f-bedb-1a5277c92f85.png"
+                }
+              },
+              {
+                "country_code": "MT",
+                "title": "Malta",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/098e7514-faa9-4066-9b58-8b8c9a753f23.png"
+                }
+              },
+              {
+                "country_code": "MX",
+                "title": "Mexico",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/448726fc-47e8-425b-b4b6-31a4b9c82490.png"
+                }
+              },
+              {
+                "country_code": "MD",
+                "title": "Moldova",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/c093d8f3-1e26-434d-9188-0b0eb17631a2.png"
+                }
+              },
+              {
+                "country_code": "ME",
+                "title": "Montenegro",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/2027d25a-a0a9-4b75-9028-ca1c4cfd7325.png"
+                }
+              },
+              {
+                "country_code": "NL",
+                "title": "Netherlands",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/eb10899b-4a7c-4c3a-8204-0f26dac6254b.png"
+                }
+              },
+              {
+                "country_code": "NZ",
+                "title": "New Zealand",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/458f6ee5-510b-46a5-afe1-7244999ba5ce.png"
+                }
+              },
+              {
+                "country_code": "NO",
+                "title": "Norway",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/842e8336-7247-4fc1-8ac0-88e74eb426f9.png"
+                }
+              },
+              {
+                "country_code": "PA",
+                "title": "Panama",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/5ea26f84-0255-40ed-a9cd-805711ee2295.png"
+                }
+              },
+              {
+                "country_code": "PY",
+                "title": "Paraguay",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/c5bb7f7f-eb7b-487f-be48-956e0dde900b.png"
+                }
+              },
+              {
+                "country_code": "PE",
+                "title": "Peru",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/2b1612fa-f163-4549-9c75-b672ac427341.png"
+                }
+              },
+              {
+                "country_code": "PH",
+                "title": "Philippines",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/62fede5f-714c-4564-9ee8-3eab44c1319e.png"
+                }
+              },
+              {
+                "country_code": "PL",
+                "title": "Poland",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/2a44176f-f96e-409b-b93f-88606bed32d0.png"
+                }
+              },
+              {
+                "country_code": "PT",
+                "title": "Portugal",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/937f172b-3944-4c31-8b46-07426a4c50d0.png"
+                }
+              },
+              {
+                "country_code": "PR",
+                "title": "Puerto Rico",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/2bf3ab35-5a80-4dfe-b4c4-c2510c241998.png"
+                }
+              },
+              {
+                "country_code": "QA",
+                "title": "Qatar",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/56ca9eb3-7c67-4bc1-9921-f2e30a2420cb.png"
+                }
+              },
+              {
+                "country_code": "RO",
+                "title": "Romania",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/27b6a011-d4e7-4447-94f6-53f562882f6d.png"
+                }
+              },
+              {
+                "country_code": "RU",
+                "title": "Russia",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/90aca5d5-c6ed-4d90-aaac-04ed900e2973.png"
+                }
+              },
+              {
+                "country_code": "SA",
+                "title": "Saudi Arabia",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/b4b0dcb2-51ab-45a3-8d3b-761d9ca0f30e.png"
+                }
+              },
+              {
+                "country_code": "RS",
+                "title": "Serbia",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/665e968e-89eb-4297-a64a-06d649a6da63.png"
+                }
+              },
+              {
+                "country_code": "SG",
+                "title": "Singapore",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/c986d7c5-9001-499a-bb59-bb9980e64c22.png"
+                }
+              },
+              {
+                "country_code": "SK",
+                "title": "Slovakia",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/58fad6fb-bf95-421b-83d9-07fcebc0724c.png"
+                }
+              },
+              {
+                "country_code": "SI",
+                "title": "Slovenia",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/24b6b038-8130-4fba-9b41-ef42d6ae4e44.png"
+                }
+              },
+              {
+                "country_code": "ZA",
+                "title": "South Africa",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/9d6ec81a-3970-49cc-b866-227559d52756.png"
+                }
+              },
+              {
+                "country_code": "KR",
+                "title": "South Korea",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/7cec50a4-5978-4107-80bb-088667c60f6e.png"
+                }
+              },
+              {
+                "country_code": "ES",
+                "title": "Spain",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/9f03ac70-d0c9-479b-ba86-082450d552b9.png"
+                }
+              },
+              {
+                "country_code": "LK",
+                "title": "Sri Lanka",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/09f6927c-1b02-4ddc-9580-f32fb352cb8e.png"
+                }
+              },
+              {
+                "country_code": "SD",
+                "title": "Sudan",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/b8904402-ac83-4174-8dac-7c389de562f2.png"
+                }
+              },
+              {
+                "country_code": "SE",
+                "title": "Sweden",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/18f34d01-c2df-4d37-9ca9-99e0bdb2e511.png"
+                }
+              },
+              {
+                "country_code": "CH",
+                "title": "Switzerland",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/3ff34acf-d69f-4e50-abec-66b6c996f702.png"
+                }
+              },
+              {
+                "country_code": "TW",
+                "title": "Taiwan",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/9450eab6-222f-4c3e-ad71-c827ff402a65.png"
+                }
+              },
+              {
+                "country_code": "TJ",
+                "title": "Tajikistan",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/6f567269-f5fe-4649-adcc-d04f946fb454.png"
+                }
+              },
+              {
+                "country_code": "TH",
+                "title": "Thailand",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/a73f6b83-c6f5-463e-afac-6e78dfa0a720.png"
+                }
+              },
+              {
+                "country_code": "TR",
+                "title": "Turkey",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/09368ab7-41b7-461a-bc62-b19ff6f81710.png"
+                }
+              },
+              {
+                "country_code": "UA",
+                "title": "Ukraine",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/10c69984-9466-4658-9e94-7cbea37f1c32.png"
+                }
+              },
+              {
+                "country_code": "GB",
+                "title": "United Kingdom",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/268d35fc-58ab-4445-a7e4-0e130d0314ed.png"
+                }
+              },
+              {
+                "country_code": "US",
+                "title": "United States",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/5217bedf-ba1d-47e2-afe2-89f36dc928d3.png"
+                }
+              },
+              {
+                "country_code": "VN",
+                "title": "Vietnam",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/f479d045-3066-4f41-a893-d6c29e17f197.png"
+                }
+              },
+              {
+                "country_code": "VI",
+                "title": "Virgin Islands(U . S .)",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/6a37976a-881c-42ac-bb40-707d1fa6fca4.png"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "middle-east-and-north-africa",
+        "country_code": "",
+        "title": "Middle East and North Africa",
+        "image": {
+          "width": 132,
+          "height": 99,
+          "url": "https://sandbox.airalo.com/images/f79224f2-f2da-4325-9dca-c70d5dd804d7.jpg"
+        },
+        "operators": [
+          {
+            "id": 555,
+            "style": "light",
+            "gradient_start": "#D75913",
+            "gradient_end": "#A07E5E",
+            "type": "global",
+            "is_prepaid": false,
+            "title": "Menalink",
+            "esim_type": "Prepaid",
+            "warning": null,
+            "apn_type": "manual",
+            "apn_value": "e-ideas",
+            "is_roaming": true,
+            "info": null,
+            "image": {
+              "width": 1035,
+              "height": 653,
+              "url": "https://sandbox.airalo.com/images/981b33ef-a01a-4756-8a80-8e04873758f5.jpg"
+            },
+            "plan_type": "data",
+            "activation_policy": "first-usage",
+            "is_kyc_verify": false,
+            "rechargeability": true,
+            "other_info": null,
+            "coverages": [
+              {
+                "name": "IE",
+                "code": "IE",
+                "networks": [
+                  {
+                    "name": "Vodafone",
+                    "types": [
+                      "LTE"
+                    ]
+                  },
+                  {
+                    "name": "3",
+                    "types": [
+                      "LTE"
+                    ]
+                  },
+                  {
+                    "name": "Meteor",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "AE",
+                "code": "AE",
+                "networks": [
+                  {
+                    "name": "Etisalat",
+                    "types": [
+                      "LTE"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "install_window_days": null,
+            "topup_grace_window_days": null,
+            "apn": {
+              "ios": {
+                "apn_type": "automatic",
+                "apn_value": "e-ideas"
+              },
+              "android": {
+                "apn_type": "manual",
+                "apn_value": "e-ideas"
+              }
+            },
+            "packages": [
+              {
+                "id": "menalink-7days-1gb",
+                "type": "sim",
+                "price": 15,
+                "amount": 1024,
+                "day": 7,
+                "is_unlimited": false,
+                "title": "1 GB - 7 Days",
+                "short_info": null,
+                "qr_installation": "",
+                "manual_installation": "",
+                "data": "1 GB",
+                "voice": null,
+                "text": null,
+                "net_price": 12,
+                "prices": {
+                  "net_price": {
+                    "AUD": 18.72,
+                    "BRL": 68.28,
+                    "GBP": 8.88,
+                    "AED": 44.04,
+                    "EUR": 10.68,
+                    "ILS": 42.12,
+                    "JPY": 1749,
+                    "MXN": 232.68,
+                    "USD": 12,
+                    "VND": 311302
+                  },
+                  "recommended_retail_price": {
+                    "AUD": 23.4,
+                    "BRL": 85.35,
+                    "GBP": 11.1,
+                    "AED": 55.05,
+                    "EUR": 13.35,
+                    "ILS": 52.65,
+                    "JPY": 2186,
+                    "MXN": 290.85,
+                    "USD": 15,
+                    "VND": 389127
+                  }
+                }
+              },
+              {
+                "id": "menalink-15days-2gb",
+                "type": "sim",
+                "price": 28,
+                "amount": 2048,
+                "day": 15,
+                "is_unlimited": false,
+                "title": "2 GB - 15 Days",
+                "short_info": null,
+                "qr_installation": "",
+                "manual_installation": "",
+                "data": "2 GB",
+                "voice": null,
+                "text": null,
+                "net_price": 22.4,
+                "prices": {
+                  "net_price": {
+                    "AUD": 34.94,
+                    "BRL": 127.46,
+                    "GBP": 16.58,
+                    "AED": 82.21,
+                    "EUR": 19.94,
+                    "ILS": 78.62,
+                    "JPY": 3264,
+                    "MXN": 434.34,
+                    "USD": 22.4,
+                    "VND": 581096
+                  },
+                  "recommended_retail_price": {
+                    "AUD": 43.68,
+                    "BRL": 159.32,
+                    "GBP": 20.72,
+                    "AED": 102.76,
+                    "EUR": 24.92,
+                    "ILS": 98.28,
+                    "JPY": 4080,
+                    "MXN": 542.92,
+                    "USD": 28,
+                    "VND": 726370
+                  }
+                }
+              },
+              {
+                "id": "menalink-30days-3gb",
+                "type": "sim",
+                "price": 39,
+                "amount": 3072,
+                "day": 30,
+                "is_unlimited": false,
+                "title": "3 GB - 30 Days",
+                "short_info": null,
+                "qr_installation": "",
+                "manual_installation": "",
+                "data": "3 GB",
+                "voice": null,
+                "text": null,
+                "net_price": 31.2,
+                "prices": {
+                  "net_price": {
+                    "AUD": 48.67,
+                    "BRL": 177.53,
+                    "GBP": 23.09,
+                    "AED": 114.5,
+                    "EUR": 27.77,
+                    "ILS": 109.51,
+                    "JPY": 4547,
+                    "MXN": 604.97,
+                    "USD": 31.2,
+                    "VND": 809384
+                  },
+                  "recommended_retail_price": {
+                    "AUD": 60.84,
+                    "BRL": 221.91,
+                    "GBP": 28.86,
+                    "AED": 143.13,
+                    "EUR": 34.71,
+                    "ILS": 136.89,
+                    "JPY": 5683,
+                    "MXN": 756.21,
+                    "USD": 39,
+                    "VND": 1011730
+                  }
+                }
+              }
+            ],
+            "countries": [
+              {
+                "country_code": "AE",
+                "title": "United Arab Emirates",
+                "image": {
+                  "width": 132,
+                  "height": 99,
+                  "url": "https://sandbox.airalo.com/images/af6ab1fd-5f6f-467e-982a-b4cebf62166e.png"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "links": {
+      "first": "https://sandbox-partners-api.airalo.com/v2/packages?filter%5Btype%5D=global&limit=200&language=en&page=1",
+      "last": "https://sandbox-partners-api.airalo.com/v2/packages?filter%5Btype%5D=global&limit=200&language=en&page=1",
+      "prev": null,
+      "next": null
+    },
+    "meta": {
+      "message": "success",
+      "current_page": 1,
+      "from": 1,
+      "last_page": 1,
+      "path": "https://sandbox-partners-api.airalo.com/v2/packages",
+      "per_page": "200",
+      "to": 5,
+      "total": 5
+    }
   }
 }
